@@ -1,3 +1,12 @@
+"""
+Jonatham Chang 190787860
+    GitHub login ID: JonathamC
+
+Ruicheng Zhao 190519490
+    GitHub login ID: Zrc657858167
+
+"""
+
 # import
 import numpy as np
 import pandas as pd
