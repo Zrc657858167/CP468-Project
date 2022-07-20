@@ -10,7 +10,8 @@ This project is liscensed under GNU General Public License v3.0. Please review *
 Before you can run the code, you need to install a few libraries. 
 
 In Terminal copy and paste this command: 
-emps pip install numpy pandas matplotlib
+
+pip install numpy pandas matplotlib
 
 ## Author 
 
