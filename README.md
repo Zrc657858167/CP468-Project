@@ -27,4 +27,4 @@ Ruicheng Zhao 190519490
 
 To run and train our model we used MNIST handwritten database. 
 
-    https://www.kaggle.com/competitions/digit-recognizer
+        https://www.kaggle.com/competitions/digit-recognizer
