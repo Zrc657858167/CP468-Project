@@ -1,0 +1,42 @@
+
+Training in progress!
+	Prediction Accuracy:  0.09934146341463415
+	Prediction Accuracy:  0.4407560975609756
+	Prediction Accuracy:  0.6307560975609756
+	Prediction Accuracy:  0.7410243902439024
+	Prediction Accuracy:  0.773609756097561
+	Prediction Accuracy:  0.8005121951219513
+	Prediction Accuracy:  0.8218292682926829
+	Prediction Accuracy:  0.8380487804878048
+	Prediction Accuracy:  0.852170731707317
+	Prediction Accuracy:  0.8610243902439024
+	Prediction Accuracy:  0.8679268292682927
+	Prediction Accuracy:  0.8738536585365854
+	Prediction Accuracy:  0.8781707317073171
+	Prediction Accuracy:  0.8818780487804878
+	Prediction Accuracy:  0.8854634146341464
+	Prediction Accuracy:  0.8883414634146342
+	Prediction Accuracy:  0.8907560975609756
+	Prediction Accuracy:  0.8930487804878049
+	Prediction Accuracy:  0.8950975609756098
+	Prediction Accuracy:  0.8966341463414634
+	Prediction Accuracy:  0.8981951219512195
+	Prediction Accuracy:  0.8999756097560976
+	Prediction Accuracy:  0.9013658536585366
+	Prediction Accuracy:  0.9024146341463415
+	Prediction Accuracy:  0.9032439024390244
+The first 10 predictions
+	[3] = 3? -->True
+	[3] = 3? -->True
+	[4] = 4? -->True
+	[2] = 2? -->True
+	[1] = 1? -->True
+	[7] = 7? -->True
+	[4] = 4? -->True
+	[8] = 8? -->True
+	[0] = 0? -->True
+	[9] = 9? -->True
+Results: 90.32% efficiency
+
+[Done] exited with code=0 in 41.219 seconds
+
