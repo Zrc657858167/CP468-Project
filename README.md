@@ -26,3 +26,5 @@ Ruicheng Zhao 190519490
 ## Dataset 
 
 To run and train our model we used MNIST handwritten database. 
+
+    https://www.kaggle.com/competitions/digit-recognizer
