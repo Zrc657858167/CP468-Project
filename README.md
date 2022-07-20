@@ -11,7 +11,7 @@ Before you can run the code, you need to install a few libraries.
 
 In Terminal copy and paste this command: 
 
-pip install numpy pandas matplotlib
+        pip install numpy pandas matplotlib
 
 ## Author 
 
