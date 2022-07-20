@@ -21,3 +21,8 @@ In Terminal copy and paste this command:
 
 Jonatham Chang 190787860  
 Ruicheng Zhao 190519490
+
+
+## Dataset 
+
+To run and train our model we used MNIST handwritten database. 
