@@ -110,6 +110,18 @@ def make_predictions(X, W1, b1, W2, b2):
     predictions = np.argmax(A2, 0)
     return predictions
 
+def test_prediction(index, W1, b1, W2, b2):
+    current_image = X_train[:, index, None]
+    prediction = make_predictions(X_train[:, index, None], W1, b1, W2, b2)
+    label = Y_train[index]
+    print("Prediction: ", prediction)
+    print("Label: ", label)
+    
+    current_image = current_image.reshape((28, 28)) * 255
+    plt.gray()
+    plt.imshow(current_image, interpolation='nearest')
+    plt.show()
+
 
 # load the data 
 mnist_data = pd.read_csv('train.csv')
@@ -146,3 +158,9 @@ for i in range(10): # len(dev_predictions) for seeing result of data
     print("\t[{}] = {}? -->{}".format(dev_predictions[i], Y_dev[i], dev_predictions[i] == Y_dev[i]))
 
 print("Results: {:.2f}% efficiency".format(results * 100))
+
+
+test_prediction(0, weights1, bias1, weights2, bias2)
+test_prediction(1, weights1, bias1, weights2, bias2)
+test_prediction(2, weights1, bias1, weights2, bias2)
+test_prediction(3, weights1, bias1, weights2, bias2)
